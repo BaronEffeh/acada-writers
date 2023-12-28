@@ -36,11 +36,6 @@ body {
   background-color: white;
 }
 
-.navbar h1 {
-  width: 75px;
-  color: green;
-}
-
 .navbar .links {
   margin-left: auto;
 }
