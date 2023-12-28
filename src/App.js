@@ -1,4 +1,4 @@
-// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, } from 'react-router-dom';
 import Footer from './Footer';
 import Home from './Home';
 import Navbar from './Navbar';
@@ -14,18 +14,6 @@ function App() {
       <div className="footer">
         <Footer />
       </div></>
-    // <Router>
-    //   <div className="App">
-    //     <Navbar />
-    //     <div className="content">
-    //       <Switch>
-    //         <Route exact path="/">
-    //           <Home />
-    //         </Route>
-    //       </Switch>
-    //     </div>
-    //   </div>
-    // </Router>
   );
 }
 

@@ -2,19 +2,21 @@ import React from "react";
 
 const Home = () => {
     return (
-        <><section className="welcome">
-            <div className="welcome-content">
-                <h3>Create Top-notch Trusted Academic Statement of Purpose with us.</h3>
-                <p>Acada writers helps you collect your professional experiences into an appeating document improving your chance of securing admission into your dream institution.</p>
-                <button id="get-startrd">Get Started</button>
-            </div>
-            <div className="table">
-                <table>
-                    <tr><td>Task Category <span id="down-arrow"><img src={process.env.PUBLIC_URL + '/Vector.png'} alt="Arrow down" /></span></td></tr>
-                    <tr><td>How soon do you need it? <span id="down-arrow"><img src={process.env.PUBLIC_URL + '/Vector.png'} alt="Arrow down" /></span></td></tr>
-                    <tr><td>Price<span id="price"><span id="naira">N</span>2,854</span></td></tr>
-                </table>
-            </div>
+        <><section id="home">
+            <section className="welcome">
+                <div className="welcome-content">
+                    <h3>Create Top-notch Trusted Academic Statement of Purpose with us.</h3>
+                    <p>Acada writers helps you collect your professional experiences into an appeating document improving your chance of securing admission into your dream institution.</p>
+                    <button id="get-startrd">Get Started</button>
+                </div>
+                <div className="table">
+                    <table>
+                        <tr><td>Task Category <span id="down-arrow"><img src={process.env.PUBLIC_URL + '/Vector.png'} alt="Arrow down" /></span></td></tr>
+                        <tr><td>How soon do you need it? <span id="down-arrow"><img src={process.env.PUBLIC_URL + '/Vector.png'} alt="Arrow down" /></span></td></tr>
+                        <tr><td>Price<span id="price"><span id="naira">N</span>2,854</span></td></tr>
+                    </table>
+                </div>
+            </section>
         </section>
 
             <section className="about">
@@ -41,6 +43,7 @@ const Home = () => {
                     <p>Simple layout, easy to find information. Our platform is user-friendly, making it a breeze for you to understand and use.</p>
                 </div>
             </section>
+            
             <section className="contact">
                 <div className="contact-form">
                     <h4>Contact Us</h4>
@@ -57,7 +60,8 @@ const Home = () => {
                         <button>Submit</button>
                     </form>
                 </div>
-            </section></>
+            </section>        
+        </>
     );
 }
 
